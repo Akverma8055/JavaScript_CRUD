@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript C.R.U.D. Operation</title>
+</head>
+<body>
+	<form autocomplete="off">
+			<h2>Basic JavaScript CRUD System</h2>
+		<table border="" cellpadding="5" cellspacing="5">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" id="name" required/></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" value="submit" onclick="manage()" /></td>
+			</tr>
+		</table>
+	</form>
+	<div id="msg"></div><br/>
+	<hr>
+	<table border="1" cellspacing="5" cellpadding="5">
+		<h2>Record</h2>
+		<thead>
+			<td>ID</td>
+			<td>Name</td>
+			<td colspan="2" align="center">Actions</td>
+		</thead>
+		
+		<tbody id="root">
+			
+		</tbody>
+
+	</table>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
